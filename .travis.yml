@@ -1,0 +1,14 @@
+language: node__js
+
+nodejs:
+  - "10.6.0"
+  
+cache: npm
+
+install:
+  - npm install
+
+script:
+  - npm run
+  
+ 
